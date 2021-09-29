@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>PariBet | Online sports betting</title>
+  </head>
+  <body class="font-display antialiased bg-gray-100">
+    <main class="flex flex-col">
+      <header
+        class="
+          bg-hero-sm
+          min-h-7/20
+          lg:bg-hero-lg lg:min-h-1/2
+          bg-no-repeat bg-cover bg-center
+        "
+      ></header>
+      <section class="flex flex-col space-y-5 container mx-auto">
+        <h1 class="text-center font-medium text-2xl pt-6 text-gray-900">
+          Select your country
+        </h1>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-6 py-4">
+          <a
+            href="/"
+            class="
+              bg-white
+              rounded-md
+              shadow-sm
+              flex flex-col
+              items-center
+              justify-center
+              px-4
+              py-6
+              space-y-2
+            "
+          >
+            <img
+              src="dist/assets/images/nigeria.png"
+              alt="nigeria"
+              class="h-14 w-14"
+            />
+            <h2 class="text-center font-medium text-base text-gray-800">
+              Nigeria
+            </h2>
+          </a>
+          <a
+            href="/"
+            class="
+              bg-white
+              rounded-md
+              shadow-sm
+              flex flex-col
+              items-center
+              justify-center
+              px-4
+              py-6
+              space-y-2
+            "
+          >
+            <img
+              src="dist/assets/images/cameroon.png"
+              alt="cameroon"
+              class="h-14 w-14"
+            />
+            <h2 class="text-center font-medium text-base text-gray-800">
+              Cameroon
+            </h2>
+          </a>
+          <a
+            href="/"
+            class="
+              bg-white
+              rounded-md
+              shadow-sm
+              flex flex-col
+              items-center
+              justify-center
+              px-4
+              py-6
+              space-y-2
+            "
+          >
+            <img
+              src="dist/assets/images/ghana.png"
+              alt="ghana"
+              class="h-14 w-14"
+            />
+            <h2 class="text-center font-medium text-base text-gray-800">
+              Ghana
+            </h2>
+          </a>
+          <a
+            href="/"
+            class="
+              bg-white
+              rounded-md
+              shadow-sm
+              flex flex-col
+              items-center
+              justify-center
+              px-4
+              py-6
+              space-y-2
+            "
+          >
+            <img
+              src="dist/assets/images/tanzania.png"
+              alt="tanzania"
+              class="h-14 w-14"
+            />
+            <h2 class="text-center font-medium text-base text-gray-800">
+              Tanzania
+            </h2>
+          </a>
+          <a
+            href="/"
+            class="
+              bg-white
+              rounded-md
+              shadow-sm
+              flex flex-col
+              items-center
+              justify-center
+              px-4
+              py-6
+              space-y-2
+            "
+          >
+            <img
+              src="dist/assets/images/uganda.png"
+              alt="uganda"
+              class="h-14 w-14"
+            />
+            <h2 class="text-center font-medium text-base text-gray-800">
+              Uganda
+            </h2>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="
+        container
+        mx-auto
+        flex flex-col
+        items-center
+        justify-center
+        space-y-1
+        pt-10
+      "
+    >
+      <h3 class="text-xl font-medium text-gray-400">PariBet</h3>
+      <small class="text-sm font-normal text-gray-400"
+        >© PariBet <span id="year">2021</span>. All Rights reserved</small
+      >
+    </footer>
+  </body>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+</html>
